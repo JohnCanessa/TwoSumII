@@ -9,7 +9,7 @@ that make that happen.
 If interested in this problem, I invite you to read the following
 post in my blog in which I describe my approach and the code.
 
-<T.B.D.>
+https://www.johncanessa.com/2021/11/01/two-sum-ii/
 
 Keep in mind that one of the best ways to learn is to read and
 experiment. Practice makes perfect.
