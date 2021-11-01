@@ -12,21 +12,25 @@ public class TwoSumII {
 
     /**
      * Find two numbers such that they add up to 
-     * the specified target number. 
+     * the specified target number.
+     * 
+     * Runtime: 0 ms, faster than 100.00% of Java online submissions for Two Sum II.
+     * Memory Usage: 39.2 MB, less than 74.14% of Java online submissions for Two Sum II.
+     * 
+     * 19 / 19 test cases passed.
+     * Status: Accepted
+     * Runtime: 0 ms
+     * Memory Usage: 39.2 MB
+     * 
+     * Runtime: O(n) - Space: O(1)
      */
     static public int[] twoSum(int[] numbers, int target) {
         
-
-        // **** sanity check(s) ****
-
-
-
         // **** initialization ****
-        int len = numbers.length;
         int l   = 0;
-        int r   = len - 1;
+        int r   = numbers.length - 1;
 
-        // **** ****
+        // **** compute sum converging from left and right ****
         while (l < r) {
 
             // **** compute sum ****
@@ -47,8 +51,6 @@ public class TwoSumII {
         // **** should NOT occur based on requirements ****
         return null;
     }
-
-
 
 
     /**
